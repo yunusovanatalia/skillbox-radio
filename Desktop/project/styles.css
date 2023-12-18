@@ -8,14 +8,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('bg.jpeg');
+    
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 h1 {
     color: white;
-    cursor: url(minecraft.png), pointer;
+    
 }
 
 h2 {
