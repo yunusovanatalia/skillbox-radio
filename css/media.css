@@ -1,0 +1,1358 @@
+/* 1275 */
+@media (max-width: 1275px) {
+/* header */
+.header__nav .nav__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.header__nav {
+  margin-right: 50px;
+}
+
+/* hero */
+.hero__content {
+  padding-top: 83px;
+  padding-bottom: 90px;
+  background-position: 608px 45px;
+  background-size: 31%;
+}
+
+/* broadcast */
+.archive {
+  padding-top: 280px;
+}
+
+.archive__descr {
+  padding-right: 25px;
+}
+
+/* playlists */
+.playlists__text::before {
+  background-position: 0 195px;
+}
+
+/* adv */
+.adv__image {
+  width: 40%;
+  height: 40%;
+}
+
+.adv__content::before {
+  top: 88px;
+  width: 110px;
+  height: 110px;
+}
+
+.adv__title::before {
+  height: 18px;
+}
+
+/* about */
+.about__content {
+  padding-bottom: 0;
+  background-image: none;
+}
+
+}
+/* 1024 */
+@media (max-width: 1135px) {
+.container {
+  margin: 0 auto;
+  padding: 0 100px;
+  max-width: 1224px;
+}
+
+/* header */
+.header__content {
+  padding: 28px 0;
+  flex-wrap: wrap;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: 80px;
+  right: 0;
+  bottom: 0;
+  left: -26px;
+  background-image: url(../img/line-solid.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%;
+}
+
+.header::after {
+  content: "";
+  position: absolute;
+  top: 143px;
+  right: 0;
+  bottom: 0;
+  left: -26px;
+  background-image: url(../img/line-solid-2.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100%;
+}
+  
+.header__logo {
+  margin-bottom: 60px;
+  padding-top: 5px;
+  width: 112px;
+  height: 14px;
+}
+
+.header__nav {
+  margin-right: 0;
+  order: 3;
+}
+
+.header__nav .nav__item:not(:last-child) {
+  margin-right: 104px;
+}
+
+.header__search {
+  margin-bottom: 45px;
+}
+
+/* hero */
+.hero__content {
+  padding-top: 83px;
+  padding-bottom: 90px;
+  background-position: 567px 69px;
+  background-size: 31%;
+}
+
+.hero__text {
+  width: 100%;
+}
+
+.hero__descr {
+  margin-bottom: 20px;
+  width: 61%;
+}
+
+/* broadcast */
+.broadcast__content {
+  padding-top: 96px;
+  padding-bottom: 68px;
+} 
+
+.broadcast__title {
+  margin-right: 55px;
+  margin-bottom: 0;
+}
+
+.broadcast__list {
+  padding-top: 13px;
+}
+
+.broadcast__text {
+  margin-right: 0;
+  width: 60%;
+}
+
+.broadcast__item {
+  width: calc((100% - var(--gap)) / 2);
+}
+
+.broadcast__item:not(:nth-child(3n)) {
+  margin-right: 0;
+}
+    
+.broadcast__item:not(:nth-child(2n)) {
+  margin-right: var(--gap);
+}
+
+.archive {
+  padding-top: 592px;
+}
+
+.broadcast__cards {
+  background-size: 100%;
+}
+
+/* guests */
+.guests__content {
+  padding-top: 95px;
+}
+
+.guests__descr_blogers {
+  margin-bottom: 48px;
+  width: 70%;
+}
+
+.guests__cards .cards__descr {
+  margin-bottom: var(--gap);
+  width: 100%;
+}
+
+/* playlists */
+.playlists__content {
+  display: block;
+  padding-top: 94px;
+  padding-bottom: 63px;
+}
+
+.playlists__descr {
+  width: 100%;
+}
+
+.playlists__img {
+  width: 44%;
+}
+
+.playlists__descr_wave {
+  margin-bottom: 32px;
+}
+
+.playlists__text {
+  margin-right: 0;
+  margin-bottom: 67px;
+}
+
+.playlists__text::before {
+  top: 26px;
+  left: 0;
+  bottom: -50px;
+  background-position: 0 83px;
+}
+  
+.playlists__list {
+  padding-top: 0;
+}
+
+.playlists__cards {
+  flex-direction: row;
+}
+
+.playlists__cards::before {
+  background-position: left top;
+  background-size: 9%;
+}
+
+.playlists__cards_icon::before {
+  background-position: left top;
+  background-size: 9%;
+}
+
+.playlists__cards .cards__text {
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+.playlists__item:not(:nth-child(4n)) {
+  margin-right: 0;
+}
+
+.playlists__item:not(:nth-child(3n)) {
+  margin-right: var(--gap);
+}
+
+.playlists__item {
+  margin-bottom: var(--gap);
+  width: calc((100% - (var(--gap)) * 2) / 3);
+}
+ 
+/* adv */
+.adv__content {
+  padding-bottom: 98px;
+}
+
+.adv__block {
+  padding-left: var(--gap);
+}
+
+.adv__image {
+  padding-top: 121px;
+  width: 48%;
+}
+
+.adv__content::before {
+  top: 212px;
+  left: -2px;
+  width: 100px;
+  height: 100px;
+  background-position: 3px 0;
+  background-size: 98%;
+}
+
+.adv__title::before {
+  background-size: 113%;
+}
+
+/* about */
+.about__content::before {
+  top: 140px;
+}
+
+.about__title {
+  margin-bottom: 11px;
+}
+
+.about__text {
+  width: 68%;
+}
+
+.about__descr_friends {
+  width: 94%;
+}
+
+.about__list {
+  padding-bottom: 18px;
+  flex-wrap: wrap;
+}
+
+.about__item {
+  width: calc((100% - var(--gap)) / 2);
+}
+
+.about__item:not(:last-child) {
+  margin-right: 0;
+}
+
+.about__item:not(:nth-child(2n)) {
+  margin-right: var(--gap);
+}
+
+.about__cards .cards__image {
+  height: 255px;
+}
+
+.about__cards .cards__text {
+  padding-bottom: 30px;
+}
+
+.about__cards .cards__text-peter,
+.about__cards .cards__text-tatiana {
+  padding-bottom: 11px;
+}
+
+.form {
+  padding-bottom: 96px;
+}
+
+.form__input,
+.forms__label {
+  width: 100%;
+}
+
+.form__btn {
+  margin-bottom: 26px;
+}
+
+.checkbox__text {
+  padding-left: 22px;
+}
+
+.footer__group {
+  padding-top: 92px;
+}
+
+.footer__underwave::before {
+  background-position: -24px 0px;
+  background-size: 189%;
+}
+
+.footer__copy {
+  padding-left: 0;
+}
+}
+
+/* 1020 */
+@media (max-width: 1020px) {
+/* header */
+
+.header::after {
+  top: 140px;
+}
+
+.header__nav .nav__link {
+  font-size: 16px;
+}
+
+.header__nav .nav__item:not(:last-child) {
+  margin-right: 89px;
+}
+
+/* hero */
+.hero__content {
+  background-image: none;
+}
+
+.hero__descr {
+  width: 95%;
+}
+
+/* broadcast */
+.broadcast {
+  position: relative;
+}
+
+.broadcast::before {
+  content: "";
+  position: absolute;
+  top: 1010px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(../img/line-solid.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 100%;
+}
+
+.broadcast__content {
+  position: relative;
+  padding-top: 95px;
+  padding-bottom: 190px;
+  flex-direction: column;
+}
+
+.broadcast__cards {
+  background-size: 394px 145px;
+}
+
+.archive {
+  display: flex;
+  position: absolute;
+  padding-top: 645px;
+  padding-left: 100px;
+  padding-right: 100px;
+  top: 550px;
+  width: 111%;
+}
+
+.archive__text {
+  padding-left: 23px;
+  align-items: flex-start;
+}
+
+.archive__link {
+  margin-bottom: 9px;
+}
+
+.archive__descr {
+  padding-left: 0;
+}
+
+.broadcast__text {
+  margin-right: 0;
+}
+
+.broadcast__title {
+  margin-bottom: 108px;
+}
+
+/* playlists */
+.playlists__text {
+  width: 100%;
+}
+
+.playlists__text::before {
+  background-position: 0px 97px;
+}
+
+.playlists__cards {
+  flex-direction: column;
+}
+
+/* adv */
+.adv__content::before {
+  top: 195px;
+  background-size: 85%;
+}
+
+.adv__image {
+  width: 40%;
+}
+
+.adv__title {
+  font-size: 40px;
+}
+
+.adv__title::before {
+  top: 95px;
+}
+
+.adv__link {
+  padding: 22px 7px;
+}
+
+/* about */
+.about__descr_friends {
+  width: 80%;
+}
+}
+
+/* 768 */
+@media (max-width: 810px) {
+.container {
+  margin: 0 auto;
+  padding: 0 114px;
+  max-width: 996px;
+}
+
+/* header */
+.header::after {
+  top: 140px;
+}
+
+.header__nav .nav__item:not(:last-child) {
+  margin-right: 53px;
+}
+
+/* podcasts */
+.podcasts__content {
+  padding-top: 96px;
+}
+
+.podcasts__item:not(:nth-child(2n)) {
+  margin-right: 0;
+}
+
+.podcasts__item {
+  width: 100%;
+}
+
+/* broadcast */
+.broadcast {
+  position: relative;
+}
+
+.broadcast::before {
+  content: "";
+  position: absolute;
+  top: 1010px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url(../img/line-solid.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 100%;
+}
+
+.broadcast__content {
+  position: relative;
+  padding-top: 95px;
+  padding-bottom: 190px;
+  flex-direction: column;
+}
+
+.broadcast__cards {
+  background-size: 100%;
+}
+
+.archive__img {
+  margin-bottom: 0;
+}
+
+/* guests */
+.guests__content {
+  padding-top: 96px;
+}
+
+.guests__descr_blogers {
+  width: 100%;
+}
+
+.guests__cards .cards__item {
+  flex-direction: column;
+}
+
+.guests__cards .cards__text {
+  padding-top: var(--gap);
+  padding-left: 0;
+}
+
+.guests__cards .cards__descr {
+  width: 69%;
+}
+
+.guests__cards .cards__descr_denis {
+  width: 68%;
+}
+
+.guests__cards .cards__descr_olga {
+  width: 67%;
+}
+
+/* playlists */
+.playlists__content {
+  padding-bottom: 82px;
+}
+
+.playlists__text::before {
+  top: 37px;
+}
+
+.playlists__item {
+  width: calc((100% - var(--gap)) / 2);
+}
+
+.playlists__img {
+  width: 44%;
+}
+
+.playlists__item:not(:nth-child(3n)) {
+  margin-right: 0;
+}
+
+.playlists__item:not(:nth-child(2n)) {
+  margin-right: var(--gap);
+}
+
+.playlists__cards {
+  flex-direction: row;
+}
+
+/* adv */
+.adv__content {
+  flex-direction: column;
+}
+
+.adv__content {
+  padding-top: 0px;
+  padding-bottom: 96px;
+}
+
+.adv__image {
+  width: 100%;
+  height: 100%;
+  padding-top: 53px;
+}
+
+.adv__content::before {
+  top: 53px;
+  width: 160px;
+  height: 160px;
+  background-size: 100%;
+}
+
+.adv__block {
+  padding-top: 50px;
+  padding-left: 0;
+}
+
+.adv__title {
+  width: 100%;
+  padding-right: 130px;
+  font-size: 48px;
+}
+
+.adv__title::before {
+  top: 113px;
+  left: 0;
+  height: 14px;
+  background-size: 100%;
+}
+
+.adv__descr_friends {
+  width: 99%;
+}
+
+.adv__descr_meet {
+  width: 98%;
+}
+
+.adv__link {
+  padding: 23px 14px;
+}
+
+/* about */
+.about {
+  position: relative;
+}
+
+.about::before {
+  content: "";
+  position: absolute;
+  top: -925px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../img/spiral-2.png);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 67%;
+}
+
+.about__title {
+  margin-bottom: 12px;
+}
+
+.about__text {
+  margin-bottom: 142px;
+  width: 100%;
+}
+
+.about__content::before {
+  right: -1px;
+  top: 475px;
+  width: 112px;
+  height: 112px;
+  background-position: right center;
+  background-size: 103%
+}
+
+.about__descr_friends {
+  width: 97%;
+}
+
+.form {
+  padding-bottom: 91px;
+}
+
+.form__input_textarea {
+  padding-bottom: 96px;
+}
+
+.form__input {
+  margin-bottom: var(--gap);
+}
+
+.forms {
+  flex-wrap: wrap;
+  margin-bottom: 0;
+}
+
+.forms__label {
+  width: 100%;
+}
+
+.label:not(:last-child) {
+  margin-right: 0;
+}
+
+.form__btn {
+  margin-bottom: 29px;
+}
+
+/* footer */
+.footer__group {
+  padding-top: 95px;
+  padding-bottom: 54px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer__info {
+  margin-right: 0;
+  margin-bottom: 73px;
+}
+
+.social__link svg {
+  width: 36px;
+  height: 36px;
+}
+
+.footer__social {
+  padding-left: 5px;
+}
+
+.footer__nav .nav__items:not(:last-child) {
+  margin-right: 156px;
+}
+
+.footer__nav {
+  margin-right: 0;
+  padding-left: 0;
+}
+
+.footer__nav .nav__item {
+  margin-bottom: 27px;
+}
+
+.footer__underwave::before {
+  top: -2px;
+  background-position: -52px 0px;
+  background-size: 253%;
+}
+
+.footer__copy {
+  padding-top: 20px;
+}
+}
+
+/* 675 */
+@media (max-width: 750px) {
+/* header */
+.header__nav {
+  overflow-x: auto;
+}
+
+/* broadcast */
+.archive {
+  padding-right: 0;
+  padding-left: 0;
+  padding-top: 665px;
+}
+
+.archive__text {
+  padding-right: 23px;
+}
+
+.archive__descr {
+   padding-left: 0;
+   padding-right: 0;
+}
+
+/* playlists */
+.playlists__cards {
+  flex-direction: column;
+}
+
+.playlists__cards .cards__title {
+  margin-bottom: 3px;
+  font-size: 12px;
+}
+
+.playlists__cards .cards__text {
+  padding: 9px 0;
+  padding-left: 10px;
+}
+
+.playlists__cards-descr {
+  font-size: 9px;
+}
+
+.playlists__cards::before {
+  background-position: right top;
+  background-size: 20%;
+}
+
+.playlists__descr {
+  font-size: 12px;
+}
+
+.playlists__text::before {
+  top: 20px;
+}
+
+.playlists__img {
+  width: 100%;
+}
+
+/* adv */
+.adv__content::before {
+  top: 45px;
+  background-size: 80%;
+}
+
+.adv__title {
+  padding-right: 0;
+  font-size: 24px;
+}
+
+.adv__title::before {
+  top: 50px;
+}
+
+/* about */
+.about::before {
+  top: -990px;
+  left: 53px;
+  bottom: -90px;
+  background-size: 90%;
+}
+
+.about__content::before {
+  background-image: none;
+}
+
+/* footer */
+.footer__nav .nav__items:not(:last-child) {
+  margin-right: 100px;
+}
+}
+
+/* 320 */
+@media (max-width: 580px) {
+.container {
+  margin: 0 auto;
+  padding: 0 32px;
+  max-width: 384px;
+}
+
+.second-title {
+  font-size: 24px;
+}
+
+.subtitle {
+ font-size: 16px;
+}
+
+/* header */
+.header{
+  position: relative;
+}
+
+.header::before {
+  top: 54px;
+}
+
+.header::after {
+  top: 104px;
+}
+
+.header__content {
+  padding: 15px 0;
+  
+}
+.header__logo {
+  margin-bottom: 46px;
+  width: 87px;
+  height: 10px;
+}
+
+.header__search {
+  margin-bottom: 27px;
+}
+
+.header__nav .nav__item:not(:last-child) {
+  margin-right: 25px;
+}
+
+/* hero */
+.hero__content {
+  padding-top: 40px;
+  padding-bottom: 42px;
+}
+
+.hero__title {
+  margin-bottom: 8px;
+  font-size: 32px;
+}
+
+.hero__descr {
+  font-size: 14px;
+  width: 100%;
+}
+
+.hero__btn {
+  padding: 14px 44px;
+  font-size: 16px;
+}
+
+/* podcasts */
+.podcasts__content {
+  padding-top: 54px;
+  padding-bottom: 24px;
+}
+
+.podcasts__cards {
+  display: block;
+  font-size: 0;
+}
+
+.podcasts__cards .cards__link {
+  display: block;
+  margin-top: 0;
+}
+
+.podcasts__item {
+  height: 185px;
+}
+
+.podcasts__title {
+  margin-bottom: 19px;
+}
+
+.podcasts__cards .cards__image {
+  width: 100%;
+  height: 72px;
+}
+
+.podcasts__cards .cards__text {
+  height: 113px;
+}
+
+.cards__date {
+  bottom: 169px;
+}
+
+.podcasts__cards .cards__text {
+  padding: 30px 0;
+  padding-left: 16px;
+}
+
+.podcasts__cards .cards__descr {
+ font-size: 12px;
+}
+
+/* broadcast */
+.broadcast__content {
+  padding-top: 55px;
+  padding-bottom: 187px;
+}
+
+.broadcast__list {
+  padding-top: 0;
+}
+
+.broadcast__title {
+  margin-bottom: 28px;
+}
+
+.broadcast__cards {
+  padding-top: 58px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 12px;
+  background-size: 143px 50px;
+}
+
+.broadcast__cards .cards__title {
+  margin-bottom: 3px;
+  font-size: 12px;
+}
+
+.broadcast__cards .cards__descr {
+  margin-bottom: 14px;
+  font-size: 9px;
+}
+
+.broadcast__cards .cards__link {
+  font-size: 12px;
+  color: var(--primary-color);
+}
+
+.broadcast__cards .cards__link svg {
+  fill: var(--primary-color);
+}
+
+.broadcast__cards .cards__descr-not-rome {
+  margin-bottom: 27px;
+}
+
+.broadcast__cards .cards__descr-era {
+  margin-bottom: 37px;
+}
+
+.broadcast::before {
+  top: 452px;
+}
+
+.archive {
+  padding-top: 126px;
+  padding-left: 0;
+  padding-right: 0;
+  top: 554px;
+  left: -20px;
+  height: 27%;
+}
+
+.archive__img {
+  margin-right: 15px;
+  width: 30%;
+}
+
+.archive__text {
+  display: flex;
+  padding-left: 0;
+  flex-direction: column-reverse;
+}
+
+.archive__link {
+  margin-bottom: 0;
+  padding: 6px 29px;
+}
+
+.archive__descr {
+  margin-bottom: 6px;
+  padding-left: 0;
+  font-size: 14px;
+}
+
+/* guests */
+.guests__content {
+  padding-top: 55px;
+  padding-bottom: 24px;
+}
+
+.guests__descr {
+  font-size: 14px;
+}
+
+.guests__title {
+  margin-bottom: 11px;
+}
+
+.guests__descr {
+  margin-bottom: 0;
+}
+
+.guests__descr_blogers {
+  margin-bottom: 28px;
+}
+
+.guests__cards .cards__text {
+  padding-top: 10px;
+}
+
+.guests__cards .cards__title {
+  margin-bottom: 6px;
+  font-size: 20px;
+}
+
+.guests__cards .cards__descr {
+  width: 100%;
+}
+
+.guests__cards .cards__link {
+  padding: 7px 14px;
+}
+
+.guests__cards .cards__item {
+  margin-bottom: var(--gap);
+}
+
+/* playlists */
+.playlists__content {
+  padding-top: 55px;
+  padding-bottom: 21px;
+}
+
+.playlists__text::before {
+  top: 0;
+  bottom: -57px;
+  background-position: 0px 112px;
+}
+
+.playlists__title {
+  margin-bottom: 12px;
+}
+
+.playlists__descr {
+  font-size: 12px;
+}
+
+.playlists__text {
+  margin-bottom: 69px;
+}
+
+.playlists__cards {
+  margin-bottom: 0;
+}
+
+/* adv */
+.adv__content {
+  padding-bottom: 56px;
+}
+
+.adv__content::before {
+  top: 53px;
+  left: -2px;
+  width: 62px;
+  height: 62px;
+  background-position: 3px 0;
+  background-size: 100%;
+}
+
+.adv__block {
+  padding-top: 38px;
+}
+
+.adv__title::before {
+  top: 58px;
+  background-size: 168%;
+}
+
+.adv__title {
+  padding-right: 0;
+  margin-bottom: 39px;
+}
+
+.adv__descr {
+  line-height: 160%;
+  font-size: 14px;
+}
+
+.adv__descr_friends {
+  margin-bottom: 10px;
+}
+
+.adv__price {
+  margin-bottom: 17px;
+  font-size: 24px;
+}
+
+.adv__descr_meet {
+  margin-bottom: 9px;
+}
+
+.adv__link {
+  padding: 13px 17px;
+  font-size: 16px;
+}
+
+.adv__link svg {
+  margin-right: 1px;
+}
+
+/* about */
+.about__content {
+  padding-top: 53px;
+}
+
+.about::before {
+  background-image: none;
+}
+
+.about__content::before {
+  background-image: none;
+}
+
+.about__title {
+  margin-bottom: 10px;
+}
+
+.about__descr {
+  font-size: 14px;
+}
+
+.about__descr_hello {
+  margin-bottom: 2px;
+}
+
+.about__descr_friends {
+  width: 98%;
+}
+
+.about__text {
+  margin-bottom: 0px;
+  padding-bottom: 28px;
+}
+
+.about__cards .cards__image {
+  height: 113px;
+}
+
+.about__cards .cards__title {
+  margin-bottom: 2px;
+  width: 90%;
+  font-size: 14px;
+  line-height: 129%;
+}
+
+.about__cards .cards__descr {
+ font-size: 12px;
+}
+
+.about__cards .cards__text {
+  padding-top: 6px;
+  padding-bottom: 26px;
+}
+
+.about__cards .cards__text-peter,
+.about__cards .cards__text-tatiana {
+  padding-bottom: 11px;
+}
+
+.form {
+  padding-bottom: 54px;
+}
+
+.form__input {
+  border-radius: 100px;
+  margin-bottom: 29px;
+  padding: 17px 0 14px 24px;
+  font-size: 16px;
+}
+
+.form__input_textarea {
+  border-radius: 20px;
+  margin-bottom: var(--gap);
+  padding-top: 14px;
+  padding-left: 24px;
+  padding-bottom: 116px;
+  font-size: 16px;
+}
+.form__btn {
+  margin-bottom: 16px;
+  padding: 14px 43px;
+  font-size: 16px;
+}
+
+.checkbox__text {
+  font-size: 9px;
+}
+
+/* footer */
+.footer {
+  position: relative;
+}
+
+.footer__group {
+  display: block;
+  padding-top: 53px;
+  padding-bottom: 0;
+}
+
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 183px;
+  right: 0;
+  bottom: 55px;
+  left: 0;
+  background-color: var(--mirage-color);
+  background-position: left center; 
+}
+
+.footer__social {
+  padding-left: 0;
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 79px;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer__nav .nav__item {
+  margin-bottom: 22px;
+  font-size: 12px;
+}
+
+.footer__nav .nav__items:not(:last-child) {
+  margin-right: 0;
+}
+
+.footer__nav .nav__list{
+  display: block;
+  columns: 2;
+  column-gap: var(--gap);
+  height: 216px;
+}
+
+.nav__items-about {
+  margin-bottom: 24px;
+}
+
+.footer__underwave::before {
+  top: -22px;
+  background-position: 0px 0px;
+  background-size: 580%;
+}
+
+.footer__copy {
+  padding-top: 0;
+  font-size: 12px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
